@@ -1,0 +1,17 @@
+<ul ngbNav #nav="ngbNav" class="nav-tabs" style="
+                                                justify-content: center;
+                                                position: sticky;
+                                                top: 0;
+                                                z-index: 9999;
+                                                background: white;"
+                                                >
+    @for (tab of tabList; track tab.name) {
+        <li ngbNavItem>
+            <button ngbNavLink>{{tab.name}}</button>
+            <ng-template ngbNavContent>
+                <ng-container *ngComponentOutlet="tab.content"></ng-container>
+            </ng-template>
+        </li>
+    }
+</ul>
+<div [ngbNavOutlet]="nav"></div>
