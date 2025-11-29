@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { LandingPage } from './components/public/landing-page/landing-page';
+import { MainPublicPage } from './components/public/main-public-page/main-public-page';
 
 export const routes: Routes = [
-    {path: '', component: LandingPage },
-    {path: '**', component: LandingPage } //Allways last
+    {path: '', component: MainPublicPage },
+    {path: '**', component: MainPublicPage } //Allways last
 ];

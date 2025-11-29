@@ -1,0 +1,28 @@
+.home__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.home__title{
+    padding: 1rem;
+}
+
+.home__carousel{
+    max-width: 800px;
+}
+
+.home__about-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
