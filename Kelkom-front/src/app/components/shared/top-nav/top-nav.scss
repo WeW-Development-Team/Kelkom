@@ -1,0 +1,17 @@
+:host ::ng-deep .nav-tabs .nav-link.active{
+    border: 1px rgb(192, 0, 199) solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px white solid;
+    color: rgb(192, 0, 199);
+}
+
+:host ::ng-deep .nav-tabs .nav-link{
+    color: rgb(192, 0, 199);
+}
+
+:host ::ng-deep .nav-tabs .nav-link:hover{
+    color: rgb(192, 0, 199);
+    border-color: inherit;
+    border-bottom: 1px white solid;
+}

@@ -10,7 +10,7 @@ import { Footer } from '../../shared/footer/footer';
 
 @Component({
   selector: 'main-public-page',
-  imports: [TopNav, Footer],
+  imports: [TopNav],
   templateUrl: './main-public-page.html',
   styleUrl: './main-public-page.scss',
 })

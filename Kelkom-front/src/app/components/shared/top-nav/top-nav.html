@@ -3,10 +3,12 @@
                                                 position: sticky;
                                                 top: 0;
                                                 z-index: 9999;
-                                                background: white;"
+                                                background: white;
+                                                border-bottom: 1px rgb(192, 0, 199) solid;
+                                                padding-top: 5px;"
                                                 >
     @for (tab of tabList; track tab.name) {
-        <li ngbNavItem>
+        <li ngbNavItem class="">
             <button ngbNavLink>{{tab.name}}</button>
             <ng-template ngbNavContent>
                 <ng-container *ngComponentOutlet="tab.content"></ng-container>
