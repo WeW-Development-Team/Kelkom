@@ -1,7 +1,9 @@
+$tabs-border-radious-top: 6px;
+
 :host ::ng-deep .nav-tabs .nav-link.active{
     border: 1px rgb(192, 0, 199) solid;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: $tabs-border-radious-top;
+    border-top-right-radius: $tabs-border-radious-top;
     border-bottom: 1px white solid;
     color: rgb(192, 0, 199);
 }
@@ -13,5 +15,7 @@
 :host ::ng-deep .nav-tabs .nav-link:hover{
     color: rgb(192, 0, 199);
     border-color: inherit;
+    border-top-left-radius: $tabs-border-radious-top;
+    border-top-right-radius: $tabs-border-radious-top;
     border-bottom: 1px white solid;
 }
