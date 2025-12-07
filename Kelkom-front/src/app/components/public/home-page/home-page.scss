@@ -1,3 +1,5 @@
+@use '../../../../styleVariables.scss' as sv;
+
 .home__container{
     display: flex;
     justify-content: center;
@@ -9,6 +11,7 @@
 
 .home__title{
     padding: 1rem;
+    color: sv.$primary-color;
 }
 
 .home__carousel{
@@ -25,4 +28,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.home__section-title{
+    color: sv.$primary-color;
+}
+
+.home__section-text{
+    color: sv.$small-text-color;
 }
