@@ -1,17 +1,28 @@
-<ul ngbNav #nav="ngbNav" class="nav-tabs" style="
-                                                justify-content: center;
-                                                position: sticky;
-                                                top: 0;
-                                                z-index: 9999;
-                                                background: white;"
-                                                >
-    @for (tab of tabList; track tab.name) {
-        <li ngbNavItem>
-            <button ngbNavLink>{{tab.name}}</button>
-            <ng-template ngbNavContent>
-                <ng-container *ngComponentOutlet="tab.content"></ng-container>
-            </ng-template>
-        </li>
-    }
-</ul>
-<div [ngbNavOutlet]="nav"></div>
+<nav class="nav">
+  <!-- Contenedor original -->
+  <div class="nav__tab-container">
+
+    <!-- Botón Hamburguesa (solo mobile) -->
+    <button class="hamburger" (click)="toggleMenu()">
+      <span [class.open]="menuOpen"></span>
+      <span [class.open]="menuOpen"></span>
+      <span [class.open]="menuOpen"></span>
+    </button>
+
+    <!-- Links desktop -->
+    <a class="nav__tab" routerLink="home">Home</a>
+    <a class="nav__tab" routerLink="forum">Forum</a>
+    <a class="nav__tab" routerLink="news">News</a>
+    <a class="nav__tab" routerLink="support">Support</a>
+    <a class="nav__tab" routerLink="social">Social</a>
+  </div>
+
+  <!-- Menú móvil desplegable -->
+  <div class="mobile-menu" [class.open]="menuOpen">
+    <a class="nav__tab" routerLink="home" (click)="closeMenu()">Home</a>
+    <a class="nav__tab" routerLink="forum" (click)="closeMenu()">Forum</a>
+    <a class="nav__tab" routerLink="news" (click)="closeMenu()">News</a>
+    <a class="nav__tab" routerLink="support" (click)="closeMenu()">Support</a>
+    <a class="nav__tab" routerLink="social" (click)="closeMenu()">Social</a>
+  </div>
+</nav>

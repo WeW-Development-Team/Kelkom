@@ -1,15 +1,22 @@
 import { Component, Input } from '@angular/core';
-import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
-import { Tab } from '../../../models/tab-model';
-import { NgComponentOutlet } from '@angular/common';
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'top-nav',
-  imports: [NgbNavModule, NgComponentOutlet],
+  imports: [RouterLink],
   templateUrl: './top-nav.html',
   styleUrl: './top-nav.scss',
 })
 export class TopNav {
-  @Input() tabList: Tab[] = [];
+
+  public menuOpen = false;
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
+
+  closeMenu() {
+    this.menuOpen = false;
+  }
 
 }

@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@use './styleVariables.scss' as sv;
 
 /* Importing Bootstrap SCSS file. */
 @use 'bootstrap' as *;
@@ -17,6 +18,7 @@ app-root {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    // font-family: 'pixelify';
 }
 
 .main-content {
@@ -24,7 +26,16 @@ app-root {
 }
 
 .custom__divider{
-    border-top: 1px black solid;
+    border-top: 2px sv.$primary-color solid;
     width: 100%;
     margin: 25px;
+}
+
+
+@font-face {
+    font-size: 16px;
+    font-family: 'pixelify';
+    src: url('./assets/fonts/PixelifySans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }

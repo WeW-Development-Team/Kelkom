@@ -3,7 +3,7 @@ import { Carousel } from "../../shared/carousel/carousel";
 import { CarouselImage } from '../../../models/image-model';
 
 @Component({
-  selector: 'app-home-page',
+  selector: 'home-page',
   imports: [Carousel],
   templateUrl: './home-page.html',
   styleUrl: './home-page.scss',
