@@ -1,6 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
-import { Tab } from '../../../models/tab-model';
 import { RouterLink } from "@angular/router";
 
 @Component({
@@ -9,4 +7,16 @@ import { RouterLink } from "@angular/router";
   templateUrl: './top-nav.html',
   styleUrl: './top-nav.scss',
 })
-export class TopNav {}
+export class TopNav {
+
+  public menuOpen = false;
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
+
+  closeMenu() {
+    this.menuOpen = false;
+  }
+
+}

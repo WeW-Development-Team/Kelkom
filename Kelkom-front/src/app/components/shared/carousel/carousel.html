@@ -1,5 +1,5 @@
 @if (images) {
-	<ngb-carousel [interval]="5000">
+	<ngb-carousel [interval]="5000" class="carousel__container">
         @for (image of images; track $index) {
             <ng-template ngbSlide>
                 <div class="picsum-img-wrapper">

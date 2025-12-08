@@ -1,24 +1,118 @@
 @use '../../../../styleVariables.scss' as sv;
 
-
-.nav__tab-container{
-    display: flex;
-    justify-content: center;
-    top: 0;
-    z-index: 9999;
-    padding: 15px;
-    gap: 75px;
-    height: 75px;
-    max-height: 75px;
-    background: linear-gradient(180deg, #000000da, #242424c9);
+.nav{
+  width: 100%;
 }
-.nav__tab{
-    text-decoration: none;
-    color: sv.$primary-color;
-    font-size: 24px;
+
+.nav__tab-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 9997;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  gap: 75px;
+  height: 75px;
+  background: linear-gradient(180deg, #000000da, #242424c9);
+
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+    gap: 20px;
+    position: fixed;
+  }
+}
+
+.nav__tab {
+  text-decoration: none;
+  color: sv.$primary-color;
+  font-size: 24px;
+
+  &:hover {
+    @media (max-width: 768px) {
+        display: none;
+    }
+    border-bottom: 2px sv.$call-to-action-color solid;
+    cursor: pointer;
+    color: sv.$call-to-action-color;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+/* HAMBURGUESA */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    background: none;
+    border: none;
+    z-index: 9999;
+    cursor: pointer;
+
+    span {
+        width: 28px;
+        height: 3px;
+        background-color: white;
+        transition: .3s;
+
+        &.open:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+        }
+
+        &.open:nth-child(2) {
+        opacity: 0;
+        }
+
+        &.open:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+        }
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
+        margin-left: 10px;
+    }
+}
+
+/* MENÚ MÓVIL */
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: #000000e0;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    padding: 0;
+    transition: padding .4s ease, max-height .6s ease;
+    text-align: center;
+   
+
+    &.open {
+        padding-left: 40%;
+        padding-right: 40%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        max-height: 400px;
+    }
+
+    a {
+        z-index: 9998;
+        font-size: 22px;
+        display: block;
+    }
+
+    @media (min-width: 769px) {
+        display: none;
+    }
 }
 
 .nav__tab:hover{
-    border-bottom: 2px sv.$primary-color solid;
+    border-bottom: 2px sv.$call-to-action-color solid;
     cursor: pointer;
+    color: sv.$call-to-action-color;
 }
