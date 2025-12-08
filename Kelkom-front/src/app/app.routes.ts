@@ -1,7 +1,11 @@
 import { Routes } from '@angular/router';
-import { MainPublicPage } from './components/public/main-public-page/main-public-page';
+import { publicRoutes } from './components/public/public.routing'
 
 export const routes: Routes = [
-    {path: '', component: MainPublicPage },
-    {path: '**', component: MainPublicPage } //Allways last
+  {
+    path: 'public',
+    children: publicRoutes
+  },
+  { path: '', redirectTo: 'public', pathMatch: 'full' },
+  { path: '**', redirectTo: 'public', pathMatch: 'full' }
 ];

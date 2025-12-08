@@ -1,20 +1,7 @@
-<ul ngbNav #nav="ngbNav" class="nav-tabs" style="
-                                                justify-content: center;
-                                                position: sticky;
-                                                top: 0;
-                                                z-index: 9999;
-                                                background: rgb(206, 206, 206);
-                                                border-bottom: 1px rgb(192, 0, 199) solid;
-                                                padding-top: 5px;
-                                                gap: 40px;"
-                                                >
-    @for (tab of tabList; track tab.name) {
-        <li ngbNavItem class="">
-            <button ngbNavLink>{{tab.name}}</button>
-            <ng-template ngbNavContent>
-                <ng-container *ngComponentOutlet="tab.content"></ng-container>
-            </ng-template>
-        </li>
-    }
-</ul>
-<div [ngbNavOutlet]="nav"></div>
+<div class="nav__tab-container">
+        <a class="nav__tab" routerLink="home">Home</a>
+        <a class="nav__tab" routerLink="forum">Forum</a>
+        <a class="nav__tab" routerLink="news">News</a>
+        <a class="nav__tab" routerLink="support">Support</a>
+        <a class="nav__tab" routerLink="social">Social</a>
+</div>

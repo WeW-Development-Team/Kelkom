@@ -26,15 +26,16 @@ app-root {
 }
 
 .custom__divider{
-    border-top: 1px sv.$primary-color solid;
+    border-top: 2px sv.$primary-color solid;
     width: 100%;
     margin: 25px;
 }
 
 
 @font-face {
-  font-family: 'pixelify';
-  src: url('./assets/fonts/PixelifySans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-size: 16px;
+    font-family: 'pixelify';
+    src: url('./assets/fonts/PixelifySans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
