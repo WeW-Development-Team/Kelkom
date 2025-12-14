@@ -5,6 +5,7 @@ import { Social } from './social/social';
 import { Support } from './support/support';
 import { HomePage } from './home-page/home-page';
 import { PublicLayoutComponent } from './public-layout/public-layout.component';
+import { MoreInfo } from './more-info/more-info';
 
 export const publicRoutes: Routes = [
 
@@ -17,6 +18,7 @@ export const publicRoutes: Routes = [
             { path: 'social', component: Social },
             { path: 'support', component: Support },
             {  path: 'home', component: HomePage },
+            {  path: 'more-info', component: MoreInfo },
             { path: '', redirectTo: 'home', pathMatch: 'full' }
         ]
     }

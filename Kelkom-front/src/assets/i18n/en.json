@@ -1,6 +1,26 @@
 {
     "HOME":{
-        
+        "NAV":{
+            "home": "Home",
+            "forum": "Forum",
+            "news": "News",
+            "support": "Support",
+            "social": "Social"
+        },
+        "ABOUT":{
+            "title": "About the game",
+            "description": "Boss Till the End is a retro futuristic action roguelike where players take on the role of a powerful dungeon boss, fighting against endless waves of invading heroes. Set in a dystopian sci-fi world with CRT aesthetics and synthwave soundscapes, the game challenges players to strategize, adapt, and evolve their boss character to survive the relentless assault. The game focuses on intense action, tactical resource management, and a deep sense of progression."
+        },
+        "CAROUSEL":{
+        },
+        "TEAM":{
+            "title":"The team",
+            "description": "Our goal is to deliver a finished, polished and good looking roguelike game where the player controls the boss of a dungeon. Additionally we want to include humour and deep topics through the histories of the players controlling the opposing heroes."
+        },
+        "MILESTONES":{
+            "title":"Milestones",
+            "description": "We are setting our milestones, we should have them by the end of the year..."
+        }
     },
     "FORUM":{
 
