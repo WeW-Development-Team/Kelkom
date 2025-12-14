@@ -3,7 +3,7 @@
         @for (image of images; track $index) {
             <ng-template ngbSlide>
                 <div class="picsum-img-wrapper">
-                    <img [width]="image.width" [height]="image.height" [src]="image.path" [alt]="image.title" style="object-fit: cover; object-position: center;"/>
+                    <img [width]="image.width" [height]="image.height" [src]="image.path" [alt]="image.title" style="object-fit: scale-down; object-position: center;"/>
                 </div>
                 <div class="carousel-caption" [style.color]="image.textColor" style="padding: 10px; background-color: rgba(0, 0, 0, 0.5);">
                     <h3>{{image.title}}</h3>

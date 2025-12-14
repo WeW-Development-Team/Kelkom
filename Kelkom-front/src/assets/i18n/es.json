@@ -1,0 +1,54 @@
+{
+    "HOME":{
+        "NAV":{
+            "home": "Inicio",
+            "forum": "Forum",
+            "news": "Novedades",
+            "support": "Soporte",
+            "social": "Social"
+        },
+        "ABOUT":{
+            "title": "Sobre el juego",
+            "CARD1":{
+                "title":"Género",
+                "text": "Rogelite con un fuerte componente narrativo"
+            },
+            "CARD2":{
+                "title":"Estilo Visual",
+                "text": "Pixelart top down a 45º. Estilo retrofuturista"
+            },
+            "CARD3":{
+                "title":"Narrativa",
+                "text": "Tomas el control del jefe final de un juego, a través del cual descubres las distintas y sorprendentes vidas de los jugadores a los que te enfrentas"
+            }
+        },
+        "USP":{
+            "title": "La esencia del juego",
+            "description": "Boss till the end destaca por el disruptivo punto de vista que ofrece. Permite a los jugadores ponerse en la piel del jefe final de un videojuego intentando pararle los pies a los enemigos que intentan batir el juego.",
+            "description2": "Por otro lado, hemos querido transmitir 4 diferentes historias en las que el jugador podrá tomar decisiones que modificarán el desarrollo narrativo. Todo esto transmitido a través de un videojuego con un estilo retrofuturista único y diferente, que mezcla pixelart con dibujo lineal",
+            "moreInfo": "Más información"
+        },
+        "CAROUSEL":{
+        },
+        "TEAM":{
+            "title":"El equipo",
+            "description": "Nuestro objetivo es ofrecer un juego roguelike acabado, pulido y atractivo en el que el jugador controla al jefe de una mazmorra. Además, queremos incluir humor y temas profundos a través de las historias de los jugadores que controlan a los héroes rivales."
+        },
+        "MILESTONES":{
+            "title":"Objetivos",
+            "description": "Aún estamos marcando nuestros objetivos, deberíamos tenerlos a finales de año..."
+        }
+    },
+    "FORUM":{
+
+    },
+    "NEWS":{
+
+    },
+    "SOCIAL":{
+
+    },
+    "SUPPORT":{
+
+    }
+}

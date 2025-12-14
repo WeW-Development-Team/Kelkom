@@ -1,31 +1,50 @@
 <div class="home__video-container">
-    <video autoplay muted loop playsinline>
+    <video #bannerVideo muted loop playsinline>
         <source src="assets/media/video/banner.webm" type="video/webm">
     </video>
 
     <div class="content">
         <h1 class="home__title">BOSS TILL THE END</h1>
+        <h3 class="home__title">Descubre lo que se siente cuando tienes el poder de ser el jefe final de un juego</h3>
     </div>
 </div>
 
 <section class="home__container">
     <section class="home__section">
-        <h1 class="home__section-title">About the game</h1>
-        <p class="home__section-text">Boss Till the End is a retro futuristic action roguelike where players take on the role of a powerful dungeon boss, fighting against endless waves of invading heroes. Set in a dystopian sci-fi world with CRT aesthetics and synthwave soundscapes, the game challenges players to strategize, adapt, and evolve their boss character to survive the relentless assault. The game focuses on intense action, tactical resource management, and a deep sense of progression.</p>
-    
-         <carousel class="home__carousel" [images]="imageList" ></carousel>
-    
+        <h1 class="home__section-title">{{ 'HOME.ABOUT.title' | translate }}</h1>
+        <div class="home__card-container">
+            @for (card of cardList; track $index) {
+                <custom-card [title]="card.title" [text]="card.text"></custom-card>
+            }
+        </div>
     </section>
 
     <section class="home__section">
-        <h1 class="home__section-title">The team</h1>
-        <p class="home__section-text">Our goal is to deliver a finished, polished and good looking roguelike game where the player controls the boss of a dungeon. Additionally we want to include humour and deep topics through the histories of the players controlling the opposing heroes.</p>
+        <h1 class="home__section-title">Bocetos iniciales</h1>
+        <p class="home__section-text">Galeria con algunos bocetos para transmitir la idea del juego</p>
+        <carousel class="home__carousel" [images]="imageList" ></carousel>
     </section>
 
     <section class="home__section">
-        <h1 class="home__section-title">Milestones</h1>
-        <p class="home__section-text">We are setting our milestones, we should have them by the end of the year...</p>
+        <h1 class="home__section-title">{{ 'HOME.USP.title' | translate }}</h1>
+        <p class="home__section-text">{{ 'HOME.USP.description' | translate }}</p>
+        <p class="home__section-text">{{ 'HOME.USP.description2' | translate }}</p>
+        <a class="home__section-link" routerLink="/public/more-info">{{ 'HOME.USP.moreInfo' | translate }} &#8594;</a>
+    </section>
+
+    <section class="home__section">
+        <h1 class="home__section-title">{{ 'HOME.MILESTONES.title' | translate }}</h1>
+Aqui poner un gusano largo de los del juego para mostrar el roadmap que tenemos en mente        <p class="home__section-text">{{ 'HOME.MILESTONES.description' | translate }}</p>
     </section>
     
+
+    
+    <section class="home__section">
+        <h1 class="home__section-title">{{ 'HOME.TEAM.title' | translate }}</h1>
+        <p class="home__section-text">{{ 'HOME.TEAM.description' | translate }}</p>
+    </section>
+
 </section>
 
+<div style="position: fixed; width: 100%; top: 0; inset: 0; background: rgba(0,0,0,0.3); z-index: -8;"></div>
+<img src="../../../../assets/media/images/webBG.webp" style="position: fixed; top: 0; height: 100%; width: 100%; bottom: 0; z-index: -10;">
