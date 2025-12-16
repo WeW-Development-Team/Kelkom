@@ -61,17 +61,20 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
   ngAfterContentChecked(): void {
     this.cardList = [
       {
+        size: "300px",
         title: this.translate.instant('HOME.ABOUT.CARD1.title'),
         text: this.translate.instant('HOME.ABOUT.CARD1.text'),
       },
       {
+        size: "300px",
         title: this.translate.instant('HOME.ABOUT.CARD2.title'),
         text: this.translate.instant('HOME.ABOUT.CARD2.text'),
       },
       {
+        size: "600px",
         title: this.translate.instant('HOME.ABOUT.CARD3.title'),
         text: this.translate.instant('HOME.ABOUT.CARD3.text'),
-      }
+      },
     ];
   }
 }

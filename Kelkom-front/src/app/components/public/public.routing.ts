@@ -6,6 +6,7 @@ import { Support } from './support/support';
 import { HomePage } from './home-page/home-page';
 import { PublicLayoutComponent } from './public-layout/public-layout.component';
 import { MoreInfo } from './more-info/more-info';
+import { Legal } from './legal/legal';
 
 export const publicRoutes: Routes = [
 
@@ -17,11 +18,12 @@ export const publicRoutes: Routes = [
             { path: 'news', component: News },
             { path: 'social', component: Social },
             { path: 'support', component: Support },
-            {  path: 'home', component: HomePage },
-            {  path: 'more-info', component: MoreInfo },
+            { path: 'home', component: HomePage },
+            { path: 'more-info', component: MoreInfo },
+            { path: 'legal', component: Legal },
             { path: '', redirectTo: 'home', pathMatch: 'full' }
         ]
     }
 
-    
+
 ];

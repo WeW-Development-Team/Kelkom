@@ -1,11 +1,14 @@
 {
     "HOME":{
+        "title":"BOSS TILL THE END",
+        "description": "Descubre lo que se siente cuando tienes el poder de ser el jefe final de un juego",
         "NAV":{
             "home": "Inicio",
             "forum": "Forum",
             "news": "Novedades",
             "support": "Soporte",
-            "social": "Social"
+            "social": "Social",
+            "moreInfo": "Esencia del juego"
         },
         "ABOUT":{
             "title": "Sobre el juego",
@@ -28,7 +31,13 @@
             "description2": "Por otro lado, hemos querido transmitir 4 diferentes historias en las que el jugador podrá tomar decisiones que modificarán el desarrollo narrativo. Todo esto transmitido a través de un videojuego con un estilo retrofuturista único y diferente, que mezcla pixelart con dibujo lineal",
             "moreInfo": "Más información"
         },
+        "CURRENTSTATE":{
+            "title": "Estado actual",
+            "description": "asdasdasd"
+        },
         "CAROUSEL":{
+            "title": "Bocetos iniciales",
+            "description": "Galeria con algunos bocetos para transmitir la idea del juego"
         },
         "TEAM":{
             "title":"El equipo",
@@ -36,7 +45,19 @@
         },
         "MILESTONES":{
             "title":"Objetivos",
-            "description": "Aún estamos marcando nuestros objetivos, deberíamos tenerlos a finales de año..."
+            "description": "Aún estamos marcando nuestros objetivos, deberíamos tenerlos a finales de año...",
+            "OBJECTIVE1":{
+                "date": "30 Diciembre 2025",
+                "text": "Participación del Boss till the end en la incubadora de GameBCN"
+            },
+            "OBJECTIVE2":{
+                "date": "Mayo 2026",
+                "text": "Primera demo completamente jugable, aún no están implementadas todas las mecánicas"
+            },
+            "OBJECTIVE3":{
+                "date": "Diciembre 2026",
+                "text": "Alpha del juego completa con todas las mecánicas pero no todo el contenido"
+            }
         }
     },
     "FORUM":{

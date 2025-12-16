@@ -10,6 +10,7 @@ import { TranslateModule } from '@ngx-translate/core';
 export class CardComponent {
     title = input<string>();
     text = input<string>();
+    size = input<string>();
 
     hasContent = computed(() => !!this.title() && !!this.text());
 }

@@ -11,18 +11,20 @@
 
     <!-- Links desktop -->
     <a class="nav__tab" routerLink="home">{{ 'HOME.NAV.home' | translate }}</a>
-    <a class="nav__tab" routerLink="forum">{{ 'HOME.NAV.forum' | translate }}</a>
+    <a class="nav__tab" routerLink="more-info">{{ 'HOME.NAV.moreInfo' | translate }}</a>
+    <!-- <a class="nav__tab" routerLink="forum">{{ 'HOME.NAV.forum' | translate }}</a>
     <a class="nav__tab" routerLink="news">{{ 'HOME.NAV.news' | translate }}</a>
     <a class="nav__tab" routerLink="support">{{ 'HOME.NAV.support' | translate }}</a>
-    <a class="nav__tab" routerLink="social">{{ 'HOME.NAV.social' | translate }}</a>
+    <a class="nav__tab" routerLink="social">{{ 'HOME.NAV.social' | translate }}</a> -->
   </div>
 
   <!-- Menú móvil desplegable -->
   <div class="mobile-menu" [class.open]="menuOpen">
-    <a class="nav__tab" routerLink="home" (click)="closeMenu()">Home</a>
-    <a class="nav__tab" routerLink="forum" (click)="closeMenu()">Forum</a>
-    <a class="nav__tab" routerLink="news" (click)="closeMenu()">News</a>
-    <a class="nav__tab" routerLink="support" (click)="closeMenu()">Support</a>
-    <a class="nav__tab" routerLink="social" (click)="closeMenu()">Social</a>
+    <a class="nav__tab" routerLink="home" (click)="closeMenu()">{{ 'HOME.NAV.home' | translate }}</a>
+    <a class="nav__tab" routerLink="home" (click)="closeMenu()">{{ 'HOME.NAV.moreInfo' | translate }}</a>
+    <!-- <a class="nav__tab" routerLink="forum" (click)="closeMenu()">{{ 'HOME.NAV.forum' | translate }}</a>
+    <a class="nav__tab" routerLink="news" (click)="closeMenu()">{{ 'HOME.NAV.news' | translate }}</a>
+    <a class="nav__tab" routerLink="support" (click)="closeMenu()">{{ 'HOME.NAV.support' | translate }}</a>
+    <a class="nav__tab" routerLink="social" (click)="closeMenu()">{{ 'HOME.NAV.social' | translate }}</a> -->
   </div>
 </nav>

@@ -7,18 +7,22 @@
 html, body {
     height: 100%;
     margin: 0;
+    font-size: 18px;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    font-size: 1rem; 
+    font-family: 'pixelify';
+    line-height: 1.5;
 }
 
 app-root {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    // font-family: 'pixelify';
+    font-family: 'pixelify';
 }
 
 .main-content {
@@ -33,9 +37,9 @@ app-root {
 
 
 @font-face {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'pixelify';
-    src: url('./assets/fonts/PixelifySans-Regular.ttf') format('truetype');
+    src: url('./assets/fonts/NotoSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
