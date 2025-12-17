@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselImage } from '../../../models/image-model';
 
@@ -9,6 +9,12 @@ import { CarouselImage } from '../../../models/image-model';
   styleUrl: './carousel.scss',
 })
 export class Carousel {
-  //Path to img
+  @ViewChild('video') video!: ElementRef<HTMLVideoElement>;
   @Input() images:CarouselImage [] = [];
+
+  ngAfterViewInit() {
+    const v = this.video.nativeElement;
+    v.muted = true;
+    v.play().catch(() => { });
+  }
 }

@@ -1,12 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Route } from '@angular/router';
 
-enum LegalSection {
-  Cookies = 0,
-  Privacy = 1,
-  Legal = 2
-}
-
 @Component({
   selector: 'legal',
   imports: [],

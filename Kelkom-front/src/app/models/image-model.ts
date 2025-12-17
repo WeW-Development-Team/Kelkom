@@ -5,4 +5,5 @@ export class CarouselImage{
     width: number = 100;
     height: number = 100;
     textColor: string = '#000';
+    isImage: boolean = true;
 }

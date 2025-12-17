@@ -1,26 +1,74 @@
 {
     "HOME":{
+        "title":"BOSS TILL THE END",
+        "description": "This time you’re not the hero.",
         "NAV":{
             "home": "Home",
             "forum": "Forum",
             "news": "News",
             "support": "Support",
-            "social": "Social"
+            "social": "Social",
+            "moreInfo": "The game essence"
         },
         "ABOUT":{
             "title": "About the game",
-            "description": "Boss Till the End is a retro futuristic action roguelike where players take on the role of a powerful dungeon boss, fighting against endless waves of invading heroes. Set in a dystopian sci-fi world with CRT aesthetics and synthwave soundscapes, the game challenges players to strategize, adapt, and evolve their boss character to survive the relentless assault. The game focuses on intense action, tactical resource management, and a deep sense of progression."
+            "CARD1":{
+                "title":"Genre",
+                "text": "Roguelite, Narrative-driven, Action, Boss perspective"
+            },
+            "CARD2":{
+                "title":"Visual style",
+                "text": "Two worlds. Two styles. Inside the game, a retrofuturistic pixel art world. Outside, a hand-drawn comic-style reality."
+            },
+            "CARD3":{
+                "title":"Narrative",
+                "text": "As the final boss of a video game, every encounter becomes a window into the unexpected lives of the players who cross your path."
+            }
+        },
+        "USP":{
+            "title": "The game essence",
+            "description": "Boss Till the End is built around an unusual perspective: playing from the role of the final boss. Players face waves of enemies trying to “beat the game”, while making decisions that shape six different storylines and alter the narrative path of each run.",
+            "description2": "All of this is presented through a retrofuturistic visual universe that blends pixel art with hand-drawn line art, reinforcing the contrast between the game and the world surrounding it.",
+            "moreInfo": "More information"
+        },
+        "CURRENTSTATE":{
+            "title": "Current development status",
+            "description": "Boss Till the End is currently in an early stage of development. The team is working on a playable prototype designed to clearly convey the tone, feel, and core experience of the game. This prototype will serve as the foundation for validating the game’s mechanics, narrative, and artistic direction before moving into the next stages of production."
         },
         "CAROUSEL":{
+            "title": "Initial drafts",
+            "description": "A selection of early sketches that helped shape the idea and tone of the game."
         },
         "TEAM":{
-            "title":"The team",
-            "description": "Our goal is to deliver a finished, polished and good looking roguelike game where the player controls the boss of a dungeon. Additionally we want to include humour and deep topics through the histories of the players controlling the opposing heroes."
+            "title":"Our team",
+            "description": "Boss Till the End is being developed by a small independent team with complementary backgrounds in design, art, and development, supported by a structured approach to planning and project execution. We work collaboratively, combining a clear creative vision with an organized and sustainable development process."
         },
         "MILESTONES":{
-            "title":"Milestones",
-            "description": "We are setting our milestones, we should have them by the end of the year..."
+            "title":"Objectives",
+            "description": "",
+            "OBJECTIVE1":{
+                "date": "",
+                "text": ""
+            },
+            "OBJECTIVE2":{
+                "date": "",
+                "text": ""
+            },
+            "OBJECTIVE3":{
+                "date": "",
+                "text": ""
+            }
         }
+    },
+    "MOREINFO":{
+        "subtitle1":"An unusual point of view",
+        "text1": "You play from the role of the final boss of a video game. As enemies try to advance and “beat the game”, your goal is to stop them and hold control from the other side of the screen.",
+        "subtitle2":"Stories revealed through combat",
+        "text2":"Every encounter is also a window into the lives of the players who challenge you. Through your decisions, you influence six different stories, shaping their narrative paths and how they intersect with your role as the boss.",
+        "subtitle3":"Choices That Shape the Narrative",
+        "text3":"Your decisions shape four different storylines. The choices you make alter their narrative paths and how they intersect with your role as the boss",
+        "subtitle4":"Two Worlds, Two Styles",
+        "text4":"The game unfolds in a retrofuturistic pixel art world. Outside of it, a hand-drawn line art style reveals the reality behind the characters."
     },
     "FORUM":{
 

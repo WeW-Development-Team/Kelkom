@@ -30,7 +30,8 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       caption: '',
       width: this.imagesWidth,
       height: this.imagesHeight,
-      textColor: '#fff'
+      textColor: '#fff',
+      isImage:  true
     },
     {
       title: 'Streamer Girl - Attacking',
@@ -38,7 +39,8 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       caption: '',
       width: this.imagesWidth,
       height: this.imagesHeight,
-      textColor: '#fff'
+      textColor: '#fff',
+      isImage:  true
     },
     {
       title: 'Streamer Girl - Dash',
@@ -46,7 +48,107 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       caption: '',
       width: this.imagesWidth,
       height: this.imagesHeight,
-      textColor: '#fff'
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'Streamer Girl - Concepts',
+      path: `${this.imagesPath}Streamer-concepts.png`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'First animations',
+      path: `${this.imagesPath}initial-anims.gif`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'Re-charge boss',
+      path: `${this.imagesPath}charger.png`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'Assassin boss',
+      path: `${this.imagesPath}assassin.png`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'Charger boss',
+      path: `${this.imagesPath}silhouettes.png`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'Charger boss - more concepts',
+      path: `${this.imagesPath}charger-concept.png`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'Worm boss initial',
+      path: `${this.imagesPath}worm-initial.png`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'UI - concept',
+      path: `${this.imagesPath}UI-Mockup.png`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'Boss defeated animation',
+      path: `${this.imagesPath}boss_defeated.gif`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'Main menu concept',
+      path: `${this.imagesPath}main-menu-draft.png`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage:  true
+    },
+    {
+      title: 'Main menu Animation',
+      path: `assets/media/video/mainMenu.mp4`,
+      caption: '',
+      width: this.imagesWidth,
+      height: this.imagesHeight,
+      textColor: '#fff',
+      isImage: false
     },
   ];
 
