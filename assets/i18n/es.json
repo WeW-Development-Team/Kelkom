@@ -1,7 +1,7 @@
 {
     "HOME":{
         "title":"BOSS TILL THE END",
-        "description": "Descubre lo que se siente cuando tienes el poder de ser el jefe final de un juego",
+        "description": "Esta vez no eres el héroe.",
         "NAV":{
             "home": "Inicio",
             "forum": "Forum",
@@ -14,34 +14,34 @@
             "title": "Sobre el juego",
             "CARD1":{
                 "title":"Género",
-                "text": "Rogelite con un fuerte componente narrativo"
+                "text": "Roguelite, Narrativo, Acción, Perspectiva del jefe"
             },
             "CARD2":{
                 "title":"Estilo Visual",
-                "text": "Pixelart top down a 45º. Estilo retrofuturista"
+                "text": "Dos mundos. Dos estilos. Dentro del juego, un mundo de pixel art retrofuturista. Fuera, una realidad dibujada con estilo cómic."
             },
             "CARD3":{
                 "title":"Narrativa",
-                "text": "Tomas el control del jefe final de un juego, a través del cual descubres las distintas y sorprendentes vidas de los jugadores a los que te enfrentas"
+                "text": "Como jefe final de un videojuego, cada enfrentamiento se convierte en una ventana a las vidas inesperadas de los jugadores que se cruzan en tu camino."
             }
         },
         "USP":{
             "title": "La esencia del juego",
-            "description": "Boss till the end destaca por el disruptivo punto de vista que ofrece. Permite a los jugadores ponerse en la piel del jefe final de un videojuego intentando pararle los pies a los enemigos que intentan batir el juego.",
-            "description2": "Por otro lado, hemos querido transmitir 4 diferentes historias en las que el jugador podrá tomar decisiones que modificarán el desarrollo narrativo. Todo esto transmitido a través de un videojuego con un estilo retrofuturista único y diferente, que mezcla pixelart con dibujo lineal",
+            "description": "Boss Till the End se construye alrededor de un punto de vista poco habitual: jugar desde el lugar del jefe final. El jugador se enfrenta a oleadas de enemigos que intentan “batir el juego”, mientras toma decisiones que afectan a seis historias diferentes y modifican el rumbo narrativo de cada partida.",
+            "description2": "Todo ello se presenta a través de un universo visual retrofuturista que combina pixel art con dibujo lineal, reforzando la dualidad entre el juego y el mundo que lo rodea.",
             "moreInfo": "Más información"
         },
         "CURRENTSTATE":{
             "title": "Estado actual",
-            "description": "asdasdasd"
+            "description": "Boss Till the End se encuentra actualmente en una fase temprana de desarrollo. El equipo está trabajando en un prototipo jugable cuyo objetivo principal es transmitir con claridad el tono, las sensaciones y la experiencia central del juego. Este prototipo servirá como base para validar las mecánicas, la narrativa y el enfoque artístico antes de avanzar hacia las siguientes etapas de producción."
         },
         "CAROUSEL":{
             "title": "Bocetos iniciales",
-            "description": "Galeria con algunos bocetos para transmitir la idea del juego"
+            "description": "Una selección de bocetos iniciales que ayudaron a definir la idea y el tono del juego."
         },
         "TEAM":{
             "title":"El equipo",
-            "description": "Nuestro objetivo es ofrecer un juego roguelike acabado, pulido y atractivo en el que el jugador controla al jefe de una mazmorra. Además, queremos incluir humor y temas profundos a través de las historias de los jugadores que controlan a los héroes rivales."
+            "description": "Boss Till the End es un proyecto desarrollado por un pequeño equipo independiente, con perfiles complementarios en diseño, arte y desarrollo, y un enfoque estructurado en la planificación y ejecución del proyecto. Trabajamos de forma colaborativa, combinando una visión creativa clara con un desarrollo organizado y sostenible."
         },
         "MILESTONES":{
             "title":"Objetivos",
@@ -59,6 +59,16 @@
                 "text": "Alpha del juego completa con todas las mecánicas pero no todo el contenido"
             }
         }
+    },
+    "MOREINFO":{
+        "subtitle1":"Un punto de vista inusual",
+        "text1": "Juegas desde el lugar del jefe final de un videojuego. Mientras los enemigos intentan avanzar y “batir el juego”, tu objetivo es detenerlos y mantener el control desde el otro lado de la pantalla.",
+        "subtitle2":"Historias contadas a través del combate",
+        "text2":"Cada enfrentamiento es también una ventana a la vida de los jugadores que te desafían. A través de tus decisiones, influyes en cuatro historias distintas, alterando su desarrollo narrativo y la forma en que se cruzan con tu papel como jefe.",
+        "subtitle3":"Elecciónes que dan forma a la narrativa",
+        "text3":"Tus decisiones influyen en el desarrollo de cuatro historias diferentes. Las elecciones que tomas alteran el rumbo narrativo y la forma en que estas historias se cruzan contigo.",
+        "subtitle4":"Dos mundos, dos estilos",
+        "text4":"El juego se vive en un mundo de pixel art retrofuturista. Fuera de él, un estilo de dibujo lineal revela la realidad que existe detrás de los personajes."
     },
     "FORUM":{
 
