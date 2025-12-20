@@ -14,7 +14,7 @@
         <h1 class="home__section-title">{{ 'HOME.ABOUT.title' | translate }}</h1>
         <div class="home__card-container">
             @for (card of cardList; track $index) {
-                <custom-card [title]="card.title" [text]="card.text" [size]="card.size"></custom-card>
+            <custom-card [title]="card.title" [text]="card.text" [width]="card.size"></custom-card>
             }
         </div>
     </section>
@@ -22,7 +22,7 @@
     <section class="home__section">
         <h1 class="home__section-title">{{"HOME.CAROUSEL.title" | translate}}</h1>
         <p class="home__section-text">{{"HOME.CAROUSEL.description" | translate}}</p>
-        <carousel class="home__carousel" [images]="imageList" ></carousel>
+        <carousel class="home__carousel" [images]="imageList"></carousel>
     </section>
 
     <section class="home__section">
@@ -38,32 +38,63 @@
     </section>
 
     <section class="home__section">
-        <h1 class="home__section-title">{{ 'HOME.MILESTONES.title' | translate }}</h1>
-        <p class="home__section-text">{{ 'HOME.MILESTONES.description' | translate }}</p>
+        <h1 class="home__section-title">{{ 'HOME.TEAM.title' | translate }}</h1>
+        <p class="home__section-text">{{ 'HOME.TEAM.description' | translate }}</p>
         <div class="home__roadmap">
             <img class="home__worm-image" src="assets/media/images/WholeWorm.png" alt="">
-            <div class="home__objective-item"  style="top: 18%; left: 15%;">
+            <div class="home__objective-item" style="top: 10%; left: 15%;">
                 <div class="home__card-container">
-                    <custom-card title="{{'HOME.MILESTONES.OBJECTIVE1.date' | translate}}" text="{{'HOME.MILESTONES.OBJECTIVE1.text' | translate}}"></custom-card>
+                    <custom-card title="{{'HOME.TEAM.member1.name' | translate}}"
+                        text="{{'HOME.TEAM.member1.text' | translate}}"
+                        text2="{{'HOME.TEAM.member1.text2' | translate}}"
+                        path="{{'HOME.TEAM.member1.path' | translate}}" [width]="'280px'"
+                        [height]="'280px'"></custom-card>
                 </div>
             </div>
-            <div class="home__objective-item" style="top: 42%; left: 92%;">
+            <div class="home__objective-item" style="top: 26%; left: 85%;">
                 <div class="home__card-container">
-                    <custom-card title="{{'HOME.MILESTONES.OBJECTIVE2.date' | translate}}" text="{{'HOME.MILESTONES.OBJECTIVE2.text' | translate}}"></custom-card>
+                    <custom-card title="{{'HOME.TEAM.member2.name' | translate}}"
+                        text="{{'HOME.TEAM.member2.text' | translate}}"
+                        path="{{'HOME.TEAM.member2.path' | translate}}" [width]="'280px'"
+                        [height]="'280px'"></custom-card>
                 </div>
             </div>
-            <div class="home__objective-item" style="top: 75%; left: 15%;">
+            <div class="home__objective-item" style="top: 40%; left: 15%;">
                 <div class="home__card-container">
-                    <custom-card title="{{'HOME.MILESTONES.OBJECTIVE3.date' | translate}}" text="{{'HOME.MILESTONES.OBJECTIVE3.text' | translate}}"></custom-card>
+                    <custom-card title="{{'HOME.TEAM.member3.name' | translate}}"
+                        text="{{'HOME.TEAM.member3.text' | translate}}"
+                        path="{{'HOME.TEAM.member3.path' | translate}}" [width]="'280px'"
+                        [height]="'280px'"></custom-card>
+                </div>
+            </div>
+            <div class="home__objective-item" style="top: 56%; left: 85%;">
+                <div class="home__card-container">
+                    <custom-card title="{{'HOME.TEAM.member4.name' | translate}}"
+                        text="{{'HOME.TEAM.member4.text' | translate}}"
+                        text2="{{'HOME.TEAM.member4.text2' | translate}}"
+                        path="{{'HOME.TEAM.member4.path' | translate}}" [width]="'280px'"
+                        [height]="'280px'"></custom-card>
+                </div>
+            </div>
+            <div class="home__objective-item" style="top: 70%; left: 15%;">
+                <div class="home__card-container">
+                    <custom-card title="{{'HOME.TEAM.member5.name' | translate}}"
+                        text="{{'HOME.TEAM.member5.text' | translate}}"
+                        path="{{'HOME.TEAM.member5.path' | translate}}" [width]="'280px'"
+                        [height]="'280px'"></custom-card>
+                </div>
+            </div>
+            <div class="home__objective-item" style="top: 86%; left: 85%;">
+                <div class="home__card-container">
+                    <custom-card title="{{'HOME.TEAM.member6.name' | translate}}"
+                        text="{{'HOME.TEAM.member6.text' | translate}}"
+                        text2="{{'HOME.TEAM.member6.text2' | translate}}"
+                        path="{{'HOME.TEAM.member6.path' | translate}}" [width]="'280px'"
+                        [height]="'280px'"></custom-card>
                 </div>
             </div>
         </div>
-        
-    </section>
-    
-    <section class="home__section">
-        <h1 class="home__section-title">{{ 'HOME.TEAM.title' | translate }}</h1>
-        <p class="home__section-text">{{ 'HOME.TEAM.description' | translate }}</p>
+
     </section>
 
 </section>

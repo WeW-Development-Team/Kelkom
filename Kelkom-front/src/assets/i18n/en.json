@@ -41,7 +41,40 @@
         },
         "TEAM":{
             "title":"Our team",
-            "description": "Boss Till the End is being developed by a small independent team with complementary backgrounds in design, art, and development, supported by a structured approach to planning and project execution. We work collaboratively, combining a clear creative vision with an organized and sustainable development process."
+            "description": "Boss Till the End is being developed by a small independent team with complementary backgrounds in design, art, and development, supported by a structured approach to planning and project execution. We work collaboratively, combining a clear creative vision with an organized and sustainable development process.",
+            "member1":{
+                "name": "Carles",
+                "text": "Game developer",
+                "text2": "Web developer",
+                "path": "assets/media/images/avatars/carles.png"
+            },
+            "member2":{
+                "name": "Marc",
+                "text": "Game design",
+                "path": "assets/media/images/avatars/marc.png"
+            },
+            "member3":{
+                "name": "Oscar",
+                "text": "Game developer",
+                "path": "assets/media/images/avatars/oscar.png"
+            },
+            "member4":{
+                "name": "Aram",
+                "text": "Game developer",
+                "text2": "3D Artist",
+                "path": "assets/media/images/avatars/aram.png"
+            },
+            "member5":{
+                "name": "Marta",
+                "text": "2D Artist",
+                "path": "assets/media/images/avatars/marta.png"
+            },
+            "member6":{
+                "name": "Laia",
+                "text": "Game developer",
+                "text2": "Project manager",
+                "path": "assets/media/images/avatars/laia.png"
+            }
         },
         "MILESTONES":{
             "title":"Objectives",

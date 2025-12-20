@@ -4,9 +4,9 @@
             <ng-template ngbSlide>
                 <div class="picsum-img-wrapper">
                     @if (image.isImage) {
-                        <img [width]="image.width" [height]="image.height" [src]="image.path" [alt]="image.title" style="object-fit: scale-down; object-position: center;"/>
+                        <img [width]="image.width" [height]="image.height" [src]="image.path" [alt]="image.title" class="carousel__image"/>
                     }@else {
-                        <video #video [width]="image.width" [height]="image.height" style="object-fit: scale-down; object-position: center;" muted loop playsinline>
+                        <video #video [width]="image.width" [height]="image.height" class="carousel__video" muted loop playsinline>
                             <source [src]="image.path" type="video/mp4">
                         </video>
                     }

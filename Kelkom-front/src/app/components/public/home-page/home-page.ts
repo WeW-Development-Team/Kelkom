@@ -18,7 +18,7 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
   @ViewChild('bannerVideo') video!: ElementRef<HTMLVideoElement>;
   private readonly translate = inject(TranslateService);
 
-  private imagesPath = 'assets/media/images/';
+  private imagesPath = 'assets/media/images/carousel/';
 
   private imagesWidth = 800;
   private imagesHeight = 500;

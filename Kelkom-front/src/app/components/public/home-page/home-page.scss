@@ -7,8 +7,18 @@
     flex-direction: column;
     justify-self: center;
     width: 70%;
+
+    @media (max-width: 860px) {
+      width: 80%;
+    }
+
+    @media (max-width: 500px) {
+      width: 90%;
+    }
+
     margin-bottom: 50px;
     overflow-x: hidden;
+    overflow: hidden;
 }
 
 .home__title{
@@ -19,9 +29,17 @@
 .home__carousel{
     max-width: 800px;
 
-    @media (max-width: 768px) {
-    max-width: 300px;
-  }
+    @media (max-width: 1008px) {
+      max-width: 600px;
+    }
+
+    @media (max-width: 790px) {
+      max-width: 400px;
+    }
+
+    @media (max-width: 430px) {
+      max-width: 350px;
+    }
 }
 
 .home__section{

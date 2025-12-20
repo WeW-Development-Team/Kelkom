@@ -1,6 +1,6 @@
 <nav class="nav">
   <!-- Contenedor original -->
-  <div class="nav__tab-container">
+  <div class="nav__tab-container" [class.open]="menuOpen">
 
     <!-- Botón Hamburguesa (solo mobile) -->
     <button class="hamburger" (click)="toggleMenu()">
@@ -10,8 +10,8 @@
     </button>
 
     <!-- Links desktop -->
-    <a class="nav__tab" routerLink="home">{{ 'HOME.NAV.home' | translate }}</a>
-    <a class="nav__tab" routerLink="more-info">{{ 'HOME.NAV.moreInfo' | translate }}</a>
+    <a class="nav__tab"  routerLinkActive="nav__tab-active" [routerLinkActiveOptions]="{ exact: true }" routerLink="home">{{ 'HOME.NAV.home' | translate }}</a>
+    <a class="nav__tab"  routerLinkActive="nav__tab-active" [routerLinkActiveOptions]="{ exact: true }" routerLink="more-info">{{ 'HOME.NAV.moreInfo' | translate }}</a>
     <!-- <a class="nav__tab" routerLink="forum">{{ 'HOME.NAV.forum' | translate }}</a>
     <a class="nav__tab" routerLink="news">{{ 'HOME.NAV.news' | translate }}</a>
     <a class="nav__tab" routerLink="support">{{ 'HOME.NAV.support' | translate }}</a>
@@ -20,8 +20,8 @@
 
   <!-- Menú móvil desplegable -->
   <div class="mobile-menu" [class.open]="menuOpen">
-    <a class="nav__tab" routerLink="home" (click)="closeMenu()">{{ 'HOME.NAV.home' | translate }}</a>
-    <a class="nav__tab" routerLink="home" (click)="closeMenu()">{{ 'HOME.NAV.moreInfo' | translate }}</a>
+    <a class="nav__tab"  routerLinkActive="nav__tab-active" [routerLinkActiveOptions]="{ exact: true }" routerLink="home" (click)="closeMenu()">{{ 'HOME.NAV.home' | translate }}</a>
+    <a class="nav__tab"  routerLinkActive="nav__tab-active" [routerLinkActiveOptions]="{ exact: true }" routerLink="more-info" (click)="closeMenu()">{{ 'HOME.NAV.moreInfo' | translate }}</a>
     <!-- <a class="nav__tab" routerLink="forum" (click)="closeMenu()">{{ 'HOME.NAV.forum' | translate }}</a>
     <a class="nav__tab" routerLink="news" (click)="closeMenu()">{{ 'HOME.NAV.news' | translate }}</a>
     <a class="nav__tab" routerLink="support" (click)="closeMenu()">{{ 'HOME.NAV.support' | translate }}</a>
