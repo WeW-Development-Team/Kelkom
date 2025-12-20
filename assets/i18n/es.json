@@ -41,23 +41,44 @@
         },
         "TEAM":{
             "title":"El equipo",
-            "description": "Boss Till the End es un proyecto desarrollado por un pequeño equipo independiente, con perfiles complementarios en diseño, arte y desarrollo, y un enfoque estructurado en la planificación y ejecución del proyecto. Trabajamos de forma colaborativa, combinando una visión creativa clara con un desarrollo organizado y sostenible."
+            "description": "Boss Till the End es un proyecto desarrollado por un pequeño equipo independiente, con perfiles complementarios en diseño, arte y desarrollo, y un enfoque estructurado en la planificación y ejecución del proyecto. Trabajamos de forma colaborativa, combinando una visión creativa clara con un desarrollo organizado y sostenible.",
+            "member1":{
+                "name": "Carles",
+                "text": "Programador",
+                "text2": "Desarrollador web",
+                "path": "assets/media/images/avatars/carles.png"
+            },
+            "member2":{
+                "name": "Marc",
+                "text": "Diseñador de videojuegos",
+                "path": "assets/media/images/avatars/marc.png"
+            },
+            "member3":{
+                "name": "Oscar",
+                "text": "Programador",
+                "path": "assets/media/images/avatars/oscar.png"
+            },
+            "member4":{
+                "name": "Aram",
+                "text": "Programador",
+                "text2": "Artista 3D",
+                "path": "assets/media/images/avatars/aram.png"
+            },
+            "member5":{
+                "name": "Marta",
+                "text": "Artista 2D",
+                "path": "assets/media/images/avatars/marta.png"
+            },
+            "member6":{
+                "name": "Laia",
+                "text": "Programadora",
+                "text2": "Project manager",
+                "path": "assets/media/images/avatars/laia.png"
+            }
         },
         "MILESTONES":{
             "title":"Objetivos",
             "description": "Aún estamos marcando nuestros objetivos, deberíamos tenerlos a finales de año...",
-            "OBJECTIVE1":{
-                "date": "30 Diciembre 2025",
-                "text": "Participación del Boss till the end en la incubadora de GameBCN"
-            },
-            "OBJECTIVE2":{
-                "date": "Mayo 2026",
-                "text": "Primera demo completamente jugable, aún no están implementadas todas las mecánicas"
-            },
-            "OBJECTIVE3":{
-                "date": "Diciembre 2026",
-                "text": "Alpha del juego completa con todas las mecánicas pero no todo el contenido"
-            }
         }
     },
     "MOREINFO":{
