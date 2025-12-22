@@ -1,7 +1,7 @@
 <div class="footer__container bg-dark text-light py-3 mt-auto">
     <p>© 2025 Kelkom Games. All rights reserved.</p>
     <p>Contact: hello@kelkomgames.com</p>
-    <div class="footer__legal" (click)="goToLegal(0)" style="cursor: pointer;">
+    <div class="footer__legal" (click)="goToLegal(0)" role="button" tabindex="0" (click)="goToLegal(0)" (keydown.enter)="goToLegal(0)" (keydown.space)="goToLegal(0)" style="cursor: pointer;">
         <a>Privacidad</a>
         <a>Cookies</a>
     </div>

@@ -29,7 +29,9 @@
         <h1 class="home__section-title">{{ 'HOME.USP.title' | translate }}</h1>
         <p class="home__section-text">{{ 'HOME.USP.description' | translate }}</p>
         <p class="home__section-text">{{ 'HOME.USP.description2' | translate }}</p>
-        <a class="home__section-link" routerLink="/public/more-info">{{ 'HOME.USP.moreInfo' | translate }} &#8594;</a>
+        <a class="home__section-link" role="button" tabindex="0" routerLink="/public/more-info">
+            {{ 'HOME.USP.moreInfo' | translate }} &#8594;
+        </a>
     </section>
 
     <section class="home__section">
@@ -41,7 +43,7 @@
         <h1 class="home__section-title">{{ 'HOME.TEAM.title' | translate }}</h1>
         <p class="home__section-text">{{ 'HOME.TEAM.description' | translate }}</p>
         <div class="home__roadmap">
-            <img class="home__worm-image" src="assets/media/images/WholeWorm.png" alt="">
+            <img class="home__worm-image" src="assets/media/images/WholeWorm.png" alt="Large worm roadmap">
             <div class="home__card-image-container">
                 <div class="home__objective-item" style="--y: 10%; --x: 20%;">
                     <div class="home__card-container-image">

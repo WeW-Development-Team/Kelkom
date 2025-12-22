@@ -1,33 +1,37 @@
 @if (hasContent()) {
-    @if (hasImage()) {
-        <div class="home__card-image" [class.flipped]="flip" (click)="onToggleFlip()" [style.width]="width()" [style.height]="height()">
-            <div class="home__card-image-inner">
-                <!-- Cara frontal -->
-                <img [src]="path()" class="home__card-image-front-image" [alt]="text()">
+@if (hasImage()) {
+<div class="home__card-image" role="button" tabindex="0" [attr.aria-expanded]="flip"
+  [attr.aria-label]="title()" [class.flipped]="flip" (click)="onToggleFlip()"
+    (click)="onToggleFlip()" (keydown.enter)="onToggleFlip()" (keydown.space)="onToggleFlip()" [style.width]="width()"
+    [style.height]="height()">
+    <div class="home__card-image-inner">
+        <!-- Cara frontal -->
+        <img [src]="path()" class="home__card-image-front-image" [alt]="text()">
 
-                <!-- Cara trasera -->
-                <div class="home__card-image-back-image">
-                    <h3>{{ title() }}</h3>
-                    <p>{{ text() }}</p>
-                    @if(text2()){ <p>{{ text2() }}</p>}
-                </div>
-            </div>
+        <!-- Cara trasera -->
+        <div class="home__card-image-back-image">
+            <h3>{{ title() }}</h3>
+            <p>{{ text() }}</p>
+            @if(text2()){ <p>{{ text2() }}</p>}
         </div>
-    }
-    @else {
-        <div class="home__card" [style.width]="width()" [style.height]="height()">
-            <div class="home__card-inner">
+    </div>
+</div>
+}
+@else {
+<div class="home__card" [class.flipped]="flip" tabindex="0" role="button" (click)="onToggleFlip()"
+    (keydown)="onKeydown($event)" [style.width]="width()" [style.height]="height()">
+    <div class="home__card-inner">
 
-                <!-- Cara frontal -->
-                <div class="home__card-front">
-                    <h3>{{ title() }}</h3>
-                </div>
-                
-                <!-- Cara trasera -->
-                    <div class="home__card-back">
-                        <p>{{ text() }}</p>
-                    </div>
-            </div>
+        <!-- Cara frontal -->
+        <div class="home__card-front">
+            <h3>{{ title() }}</h3>
         </div>
-    }
+
+        <!-- Cara trasera -->
+        <div class="home__card-back">
+            <p>{{ text() }}</p>
+        </div>
+    </div>
+</div>
+}
 }

@@ -19,6 +19,21 @@
   background-color: rgba($color: #000000, $alpha: .8);
 }
 
+:host ::ng-deep .carousel-indicators [data-bs-target]{
+  height: 18px;
+}
+
+:host ::ng-deep .carousel-indicators{
+  margin: 5px;
+  bottom: 15px;
+}
+
+:host ::ng-deep .carousel-caption{
+  margin: 0;
+  left: 0;
+  width: 100%;
+}
+
 .carousel__image{
   object-fit: scale-down; 
   object-position: center;

@@ -2,6 +2,7 @@
   width: 280px;
   height: 180px;
   perspective: 1000px;
+  cursor: pointer;
 
   @media (max-width: 768px) {
     max-width: 220px;
@@ -17,8 +18,16 @@
     transition: transform 0.6s ease;
   }
 
-  &:hover &-inner {
+  /* Giro controlado por clase (click / teclado) */
+  &.flipped &-inner {
     transform: rotateY(180deg);
+  }
+
+  /* Hover SOLO desktop */
+  @media (hover: hover) and (pointer: fine) {
+    &:hover &-inner {
+      transform: rotateY(180deg);
+    }
   }
 
   &-front,
@@ -35,27 +44,25 @@
   }
 
   &-front {
-    //border: 2px rgb(153, 0, 107) solid;
-    background: rgba($color: #4b3347, $alpha: 0.7);
+    background: rgba(#4b3347, 0.7);
     color: #fff;
     font-size: 22px;
     font-weight: 600;
   }
 
   &-back {
-    background: rgba($color: #69543b, $alpha: 0.7);
+    background: rgba(#69543b, 0.7);
     color: #ccc;
     transform: rotateY(180deg);
     font-size: 16px;
     text-align: center;
 
     @media (max-width: 768px) {
-      padding-bottom: 0px;
+      padding-bottom: 0;
       font-size: 14px;
     }
   }
 }
-
 /* ===============================
    CARD IMAGE 3D CONTAINER
 ================================ */

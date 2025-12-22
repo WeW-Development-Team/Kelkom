@@ -20,6 +20,13 @@ export class CardComponent {
     this.flip = !this.flip;
     }
 
+    onKeydown(event: KeyboardEvent) {
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault(); // evita scroll con Space
+    this.onToggleFlip();
+  }
+}
+
     hasContent = computed(() => !!this.text());
     hasImage = computed(() => !!this.path());
 }
