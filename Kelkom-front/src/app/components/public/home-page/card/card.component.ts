@@ -21,11 +21,11 @@ export class CardComponent {
     }
 
     onKeydown(event: KeyboardEvent) {
-  if (event.key === 'Enter' || event.key === ' ') {
-    event.preventDefault(); // evita scroll con Space
-    this.onToggleFlip();
-  }
-}
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault(); // evita scroll con Space
+        this.onToggleFlip();
+      }
+    }
 
     hasContent = computed(() => !!this.text());
     hasImage = computed(() => !!this.path());

@@ -1,8 +1,7 @@
 @if (hasContent()) {
 @if (hasImage()) {
 <div class="home__card-image" role="button" tabindex="0" [attr.aria-expanded]="flip"
-  [attr.aria-label]="title()" [class.flipped]="flip" (click)="onToggleFlip()"
-    (click)="onToggleFlip()" (keydown.enter)="onToggleFlip()" (keydown.space)="onToggleFlip()" [style.width]="width()"
+  [attr.aria-label]="title()" [class.flipped]="flip" (click)="onToggleFlip()" (keydown.enter)="onToggleFlip()" (keydown.space)="onToggleFlip()" [style.width]="width()"
     [style.height]="height()">
     <div class="home__card-image-inner">
         <!-- Cara frontal -->
