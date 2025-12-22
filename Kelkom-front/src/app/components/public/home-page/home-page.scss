@@ -109,7 +109,18 @@
 }
 
 .home__worm-image{
-  margin-left: 50px;
+  margin-left: 33%;
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 880px) {
+  .home__worm-image{
+    margin-left: 18%;
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .home__objective-item{
@@ -117,27 +128,40 @@
 }
 
 .home__roadmap {
+  margin-top: 40px;
   position: relative;
   width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
+  max-width: 100%;
+  --card-size: 280px;
+}
 
-  img {
-    justify-self: center;
-    width: 50%;
-    height: auto;
-    display: block;
-  }
+@media (max-width: 1400px) {
+  .home__roadmap { --card-size: 220px; }
+}
+
+@media (max-width: 1000px) {
+  .home__roadmap { --card-size: 170px; }
+}
+
+@media (max-width: 880px) {
+  .home__roadmap { --card-size: 140px; }
+}
+
+@media (max-width: 600px) {
+  .home__roadmap { --card-size: 110px; }
 }
 
 .home__objective-item {
   position: absolute;
+
+  /* Coordenadas relativas a la imagen */
+  top: var(--y);
+  left: var(--x);
+
+  /* El centro de la card coincide con el punto */
   transform: translate(-50%, -50%);
-  color: #fff;
-  padding: 8px 14px;
-  border-radius: 8px;
-  font-size: 14px;
-  white-space: nowrap;
-  z-index: 999;
-  text-wrap: auto;
+  transform-origin: center;
+
+  pointer-events: auto;
 }
+

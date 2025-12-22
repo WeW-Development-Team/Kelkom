@@ -14,6 +14,11 @@ export class CardComponent {
     path = input<string>();
     width = input<string>();
     height = input<string>();
+    flip = false;
+
+    onToggleFlip() {
+    this.flip = !this.flip;
+    }
 
     hasContent = computed(() => !!this.text());
     hasImage = computed(() => !!this.path());
