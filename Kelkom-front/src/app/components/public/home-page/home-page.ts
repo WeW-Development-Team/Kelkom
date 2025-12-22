@@ -55,7 +55,7 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       title: 'Streamer Girl - Concepts',
       path: `${this.imagesPath}Streamer-concepts.png`,
       caption: '',
-      width: this.imagesWidth,
+      width: window.screen.width < 670 ? 400 : this.imagesWidth,
       height: this.imagesHeight,
       textColor: '#fff',
       isImage:  true
@@ -73,7 +73,7 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       title: 'Re-charge boss',
       path: `${this.imagesPath}charger.png`,
       caption: '',
-      width: this.imagesWidth,
+      width: window.screen.width < 670 ? 400 : this.imagesWidth,
       height: this.imagesHeight,
       textColor: '#fff',
       isImage:  true
@@ -82,7 +82,7 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       title: 'Assassin boss',
       path: `${this.imagesPath}assassin.png`,
       caption: '',
-      width: this.imagesWidth,
+      width: window.screen.width < 670 ? 400 : this.imagesWidth,
       height: this.imagesHeight,
       textColor: '#fff',
       isImage:  true
@@ -100,7 +100,7 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       title: 'Charger boss - more concepts',
       path: `${this.imagesPath}charger-concept.png`,
       caption: '',
-      width: this.imagesWidth,
+      width: window.screen.width < 670 ? 400 : this.imagesWidth,
       height: this.imagesHeight,
       textColor: '#fff',
       isImage:  true
@@ -109,7 +109,7 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       title: 'Worm boss initial',
       path: `${this.imagesPath}worm-initial.png`,
       caption: '',
-      width: this.imagesWidth,
+      width: window.screen.width < 670 ? 400 : this.imagesWidth,
       height: this.imagesHeight,
       textColor: '#fff',
       isImage:  true
@@ -118,7 +118,7 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       title: 'UI - concept',
       path: `${this.imagesPath}UI-Mockup.png`,
       caption: '',
-      width: this.imagesWidth,
+      width: window.screen.width < 670 ? 400 : this.imagesWidth,
       height: this.imagesHeight,
       textColor: '#fff',
       isImage:  true
@@ -127,7 +127,7 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       title: 'Boss defeated animation',
       path: `${this.imagesPath}boss_defeated.gif`,
       caption: '',
-      width: this.imagesWidth,
+      width: window.screen.width < 670 ? 400 : this.imagesWidth,
       height: this.imagesHeight,
       textColor: '#fff',
       isImage:  true
@@ -136,7 +136,7 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       title: 'Main menu concept',
       path: `${this.imagesPath}main-menu-draft.png`,
       caption: '',
-      width: this.imagesWidth,
+      width: window.screen.width < 670 ? 400 : this.imagesWidth,
       height: this.imagesHeight,
       textColor: '#fff',
       isImage:  true
@@ -145,7 +145,7 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
       title: 'Main menu Animation',
       path: `assets/media/video/mainMenu.mp4`,
       caption: '',
-      width: this.imagesWidth,
+      width: window.screen.width < 670 ? 400 : this.imagesWidth,
       height: this.imagesHeight,
       textColor: '#fff',
       isImage: false
