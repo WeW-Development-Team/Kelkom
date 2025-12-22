@@ -1,7 +1,5 @@
 <div class="home__video-container">
-    <img class="home__hero-poster" src="assets/media/video/banner.jpg" alt="" fetchpriority="high" loading="eager"
-        decoding="async" width="1920" height="1080">
-    <video muted autoplay loop playsinline preload="none" style="z-index: 3;">
+    <video #bannerVideo autoplay muted loop playsinline preload="none" poster="assets/media/video/banner.jpg">
         <source src="assets/media/video/banner.webm" type="video/webm">
     </video>
 
@@ -45,8 +43,7 @@
         <h1 class="home__section-title">{{ 'HOME.TEAM.title' | translate }}</h1>
         <p class="home__section-text">{{ 'HOME.TEAM.description' | translate }}</p>
         <div class="home__roadmap">
-            <img loading="lazy" decoding="async" class="home__worm-image" src="assets/media/images/WholeWorm.png"
-                alt="Large worm roadmap">
+            <img loading="lazy" decoding="async" class="home__worm-image" src="assets/media/images/WholeWorm.png" alt="Large worm roadmap">
             <div class="home__card-image-container">
                 <div class="home__objective-item" style="--y: 10%; --x: 20%;">
                     <div class="home__card-container-image">
