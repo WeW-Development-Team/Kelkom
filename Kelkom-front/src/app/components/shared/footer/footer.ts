@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'bottom-footer',
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './footer.html',
   styleUrl: './footer.scss',
 })

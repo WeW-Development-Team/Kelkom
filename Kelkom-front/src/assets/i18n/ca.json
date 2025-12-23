@@ -1,0 +1,145 @@
+{
+  "HOME": {
+    "title": "BOSS TILL THE END",
+    "description": "Aquest cop no ets l’heroi.",
+    "NAV": {
+      "home": "Inici",
+      "forum": "Fòrum",
+      "news": "Novetats",
+      "support": "Suport",
+      "social": "Social",
+      "moreInfo": "Essència del joc"
+    },
+    "ABOUT": {
+      "title": "Sobre el joc",
+      "CARD1": {
+        "title": "Gènere",
+        "text": "Roguelite, Narratiu, Acció, Perspectiva del enemic final"
+      },
+      "CARD2": {
+        "title": "Estil visual",
+        "text": "Dos mons. Dos estils. Dins del joc, un món de pixel art retrofuturista. Fora, una realitat dibuixada amb estil còmic."
+      },
+      "CARD3": {
+        "title": "Narrativa",
+        "text": "Com a enemic final d’un videojoc, cada enfrontament es converteix en una finestra a les vides inesperades dels jugadors que es creuen en el teu camí."
+      }
+    },
+    "USP": {
+      "title": "L’essència del joc",
+      "description": "Boss Till the End es construeix al voltant d’un punt de vista poc habitual: jugar des del lloc del enemic final. El jugador s’enfronta a onades d’enemics que intenten “acabar el joc”, mentre pren decisions que afecten sis històries diferents i modifiquen el rumb narratiu de cada partida.",
+      "description2": "Tot plegat es presenta a través d’un univers visual retrofuturista que combina pixel art amb dibuix lineal, reforçant la dualitat entre el joc i el món que l’envolta.",
+      "moreInfo": "Més informació"
+    },
+    "CURRENTSTATE": {
+      "title": "Estat actual",
+      "description": "Boss Till the End es troba actualment en una fase primerenca de desenvolupament. L’equip està treballant en un prototip jugable amb l’objectiu principal de transmetre amb claredat el to, les sensacions i l’experiència central del joc. Aquest prototip servirà com a base per validar les mecàniques, la narrativa i l’enfocament artístic abans d’avançar cap a les següents etapes de producció."
+    },
+    "CAROUSEL": {
+      "title": "Esbossos inicials",
+      "description": "Una selecció d’esbossos inicials que van ajudar a definir la idea i el to del joc.",
+      "image1": "Streamer - Corrent",
+      "image2": "Streamer - Atacant",
+      "image3": "Streamer - Esquivant",
+      "image4": "Streamer - Conceptes",
+      "image5": "Primeres animacions",
+      "image6": "Enemic final 're-charger'",
+      "image7": "Enemic final assessí",
+      "image8": "Enemic final d'éstil 'cárrega'",
+      "image9": "Enemic final - més conceptes",
+      "image10": "Enemic final cuc primers conceptes",
+      "image11": "IU - conceptes",
+      "image12": "Enemic final vençut",
+      "image13": "Concepte de menú principal",
+      "image14": "Animacío menú principal"
+    },
+    "TEAM": {
+      "title": "L’equip",
+      "description": "Boss Till the End és un projecte desenvolupat per un petit equip independent, amb perfils complementaris en disseny, art i desenvolupament, i un enfocament estructurat en la planificació i execució del projecte. Treballem de manera col·laborativa, combinant una visió creativa clara amb un desenvolupament organitzat i sostenible.",
+      "member1": {
+        "name": "Carles",
+        "text": "Programador",
+        "text2": "Desenvolupador web",
+        "path": "assets/media/images/avatars/carles.png"
+      },
+      "member2": {
+        "name": "Marc",
+        "text": "Dissenyador de videojocs",
+        "path": "assets/media/images/avatars/marc.png"
+      },
+      "member3": {
+        "name": "Oscar",
+        "text": "Programador",
+        "path": "assets/media/images/avatars/oscar.png"
+      },
+      "member4": {
+        "name": "Aram",
+        "text": "Programador",
+        "text2": "Artista 3D",
+        "path": "assets/media/images/avatars/aram.png"
+      },
+      "member5": {
+        "name": "Marta",
+        "text": "Artista 2D",
+        "path": "assets/media/images/avatars/marta.png"
+      },
+      "member6": {
+        "name": "Laia",
+        "text": "Programadora",
+        "text2": "Project manager",
+        "path": "assets/media/images/avatars/laia.png"
+      }
+    },
+    "MILESTONES": {
+      "title": "Objectius",
+      "description": "Encara estem definint els nostres objectius, hauríem de tenir-los a finals d’any..."
+    }
+  },
+  "MOREINFO": {
+    "subtitle1": "Un punt de vista inusual",
+    "text1": "Jugues des del lloc del enemic final d’un videojoc. Mentre els enemics intenten avançar i “acabar el joc”, el teu objectiu és aturar-los i mantenir el control des de l’altre costat de la pantalla.",
+    "subtitle2": "Històries explicades a través del combat",
+    "text2": "Cada enfrontament és també una finestra a la vida dels jugadors que et desafien. A través de les teves decisions, influeixes en quatre històries diferents, alterant el seu desenvolupament narratiu i la manera com es creuen amb el teu paper com a enemic final.",
+    "subtitle3": "Eleccions que donen forma a la narrativa",
+    "text3": "Les teves decisions influeixen en el desenvolupament de quatre històries diferents. Les eleccions que prens alteren el rumb narratiu i la manera com aquestes històries es creuen amb tu.",
+    "subtitle4": "Dos mons, dos estils",
+    "text4": "El joc es viu en un món de pixel art retrofuturista. Fora d’ell, un estil de dibuix lineal revela la realitat que existeix darrere dels personatges."
+  },
+  "LEGAL": {
+    "rights": "Tots els drets reservats.",
+    "title": "Legal",
+    "legalWarning": {
+      "title": "Avís legal",
+      "text": "Aquest lloc web pertany a Kelkom Games i té caràcter informatiu. El contingut mostrat correspon a un videojoc en desenvolupament i no constitueix una oferta comercial vinculant."
+    },
+    "cookies": {
+      "name": "Cookies",
+      "title": "Política de cookies",
+      "text1": "Aquest lloc web no utilitza cookies pròpies amb finalitats analítiques, publicitàries ni de personalització.",
+      "text2": "No obstant això, la plataforma d’allotjament i el proveïdor d’infraestructura i seguretat poden utilitzar cookies tècniques estrictament necessàries per garantir el correcte funcionament del lloc web, la seguretat, la distribució de continguts i la protecció davant d’atacs.",
+      "text3": "Aquestes cookies:",
+      "text4": "No identifiquen personalment l’usuari",
+      "text5": "No s’utilitzen amb finalitats publicitàries",
+      "text6": "No permeten el seguiment individual de l’usuari"
+    },
+    "privacy": {
+      "title": "Privacitat",
+      "text": "Aquest lloc web no recull dades personals dels usuaris de manera directa. No existeixen formularis de contacte, sistemes de registre, comptes d’usuari ni comentaris. No s’emmagatzema informació personal ni es realitza cap tractament de dades amb finalitats comercials."
+    },
+    "thirdParty": {
+      "title": "Serveis de tercers",
+      "text1": "Aquest lloc web utilitza serveis de tercers únicament per a l’allotjament, la distribució de continguts i la seguretat:",
+      "text2": "Netlify: servei d’allotjament i desplegament web",
+      "text3": "Cloudflare: xarxa de distribució de continguts (CDN) i protecció de seguretat",
+      "text4": "Aquests serveis poden processar dades tècniques mínimes (com ara adreces IP) amb finalitats exclusivament tècniques i de seguretat, d’acord amb les seves respectives polítiques de privacitat. No s’utilitzen eines d’analítica, publicitat ni seguiment extern per part del titular del lloc web."
+    },
+    "contact": {
+      "title": "Contacte",
+      "text": "Per a qualsevol qüestió relacionada amb aquest lloc web o consultes sobre el joc, podeu contactar a través del correu electrònic:"
+    }
+  },
+  "FORUM": {},
+  "NEWS": {},
+  "SOCIAL": {},
+  "SUPPORT": {}
+}

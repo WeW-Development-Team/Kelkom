@@ -1,8 +1,10 @@
 <div class="footer__container bg-dark text-light py-3 mt-auto">
-    <p>© 2025 Kelkom Games. All rights reserved.</p>
-    <p>Contact: hello@kelkomgames.com</p>
+    <p>© 2025 Kelkom Games. {{ "LEGAL.rights" | translate}}</p>
+    <a style="margin-right: 15%; text-decoration: underline; color: #eaeaea;"
+                href="mailto:contact&#64;kelkomgames.com?subject=Contacto%20des%20de%20web"
+                rel="noopener">contact&#64;kelkomgames.com</a>
     <div class="footer__legal" (click)="goToLegal(0)" role="button" tabindex="0" (click)="goToLegal(0)" (keydown.enter)="goToLegal(0)" (keydown.space)="goToLegal(0)" style="cursor: pointer;">
-        <a>Privacidad</a>
-        <a>Cookies</a>
+        <a>{{ "LEGAL.privacy.title" | translate}}</a>
+        <a>{{ "LEGAL.cookies.name" | translate}}</a>
     </div>
 </div>

@@ -1,8 +1,8 @@
 {
-    "HOME":{
-        "title":"BOSS TILL THE END",
+    "HOME": {
+        "title": "BOSS TILL THE END",
         "description": "This time you’re not the hero.",
-        "NAV":{
+        "NAV": {
             "home": "Home",
             "forum": "Forum",
             "news": "News",
@@ -10,109 +10,136 @@
             "social": "Social",
             "moreInfo": "The game essence"
         },
-        "ABOUT":{
+        "ABOUT": {
             "title": "About the game",
-            "CARD1":{
-                "title":"Genre",
+            "CARD1": {
+                "title": "Genre",
                 "text": "Roguelite, Narrative-driven, Action, Boss perspective"
             },
-            "CARD2":{
-                "title":"Visual style",
+            "CARD2": {
+                "title": "Visual style",
                 "text": "Two worlds. Two styles. Inside the game, a retrofuturistic pixel art world. Outside, a hand-drawn comic-style reality."
             },
-            "CARD3":{
-                "title":"Narrative",
+            "CARD3": {
+                "title": "Narrative",
                 "text": "As the final boss of a video game, every encounter becomes a window into the unexpected lives of the players who cross your path."
             }
         },
-        "USP":{
+        "USP": {
             "title": "The game essence",
             "description": "Boss Till the End is built around an unusual perspective: playing from the role of the final boss. Players face waves of enemies trying to “beat the game”, while making decisions that shape six different storylines and alter the narrative path of each run.",
             "description2": "All of this is presented through a retrofuturistic visual universe that blends pixel art with hand-drawn line art, reinforcing the contrast between the game and the world surrounding it.",
             "moreInfo": "More information"
         },
-        "CURRENTSTATE":{
+        "CURRENTSTATE": {
             "title": "Current development status",
             "description": "Boss Till the End is currently in an early stage of development. The team is working on a playable prototype designed to clearly convey the tone, feel, and core experience of the game. This prototype will serve as the foundation for validating the game’s mechanics, narrative, and artistic direction before moving into the next stages of production."
         },
-        "CAROUSEL":{
+        "CAROUSEL": {
             "title": "Initial drafts",
-            "description": "A selection of early sketches that helped shape the idea and tone of the game."
+            "description": "A selection of early sketches that helped shape the idea and tone of the game.",
+            "image1": "Streamer Girl - Running",
+            "image2": "Streamer Girl - Attacking",
+            "image3": "Streamer Girl - Dash",
+            "image4": "Streamer Girl - Concepts",
+            "image5": "First animations",
+            "image6": "Re-charge boss",
+            "image7": "Assassin boss",
+            "image8": "Charger boss",
+            "image9": "Charger boss - more concepts",
+            "image10": "Worm boss initial",
+            "image11": "UI - concept",
+            "image12": "Boss defeated animation",
+            "image13": "Main menu concept",
+            "image14": "Main menu Animation"
         },
-        "TEAM":{
-            "title":"Our team",
+        "TEAM": {
+            "title": "Our team",
             "description": "Boss Till the End is being developed by a small independent team with complementary backgrounds in design, art, and development, supported by a structured approach to planning and project execution. We work collaboratively, combining a clear creative vision with an organized and sustainable development process.",
-            "member1":{
+            "member1": {
                 "name": "Carles",
                 "text": "Game developer",
                 "text2": "Web developer",
                 "path": "assets/media/images/avatars/carles.png"
             },
-            "member2":{
+            "member2": {
                 "name": "Marc",
                 "text": "Game design",
                 "path": "assets/media/images/avatars/marc.png"
             },
-            "member3":{
+            "member3": {
                 "name": "Oscar",
                 "text": "Game developer",
                 "path": "assets/media/images/avatars/oscar.png"
             },
-            "member4":{
+            "member4": {
                 "name": "Aram",
                 "text": "Game developer",
                 "text2": "3D Artist",
                 "path": "assets/media/images/avatars/aram.png"
             },
-            "member5":{
+            "member5": {
                 "name": "Marta",
                 "text": "2D Artist",
                 "path": "assets/media/images/avatars/marta.png"
             },
-            "member6":{
+            "member6": {
                 "name": "Laia",
                 "text": "Game developer",
                 "text2": "Project manager",
                 "path": "assets/media/images/avatars/laia.png"
             }
         },
-        "MILESTONES":{
-            "title":"Objectives",
-            "description": "",
-            "OBJECTIVE1":{
-                "date": "",
-                "text": ""
-            },
-            "OBJECTIVE2":{
-                "date": "",
-                "text": ""
-            },
-            "OBJECTIVE3":{
-                "date": "",
-                "text": ""
-            }
+        "MILESTONES": {
+            "title": "Objectives",
+            "description": ""
         }
     },
-    "MOREINFO":{
-        "subtitle1":"An unusual point of view",
+    "MOREINFO": {
+        "subtitle1": "An unusual point of view",
         "text1": "You play from the role of the final boss of a video game. As enemies try to advance and “beat the game”, your goal is to stop them and hold control from the other side of the screen.",
-        "subtitle2":"Stories revealed through combat",
-        "text2":"Every encounter is also a window into the lives of the players who challenge you. Through your decisions, you influence six different stories, shaping their narrative paths and how they intersect with your role as the boss.",
-        "subtitle3":"Choices That Shape the Narrative",
-        "text3":"Your decisions shape four different storylines. The choices you make alter their narrative paths and how they intersect with your role as the boss",
-        "subtitle4":"Two Worlds, Two Styles",
-        "text4":"The game unfolds in a retrofuturistic pixel art world. Outside of it, a hand-drawn line art style reveals the reality behind the characters."
+        "subtitle2": "Stories revealed through combat",
+        "text2": "Every encounter is also a window into the lives of the players who challenge you. Through your decisions, you influence six different stories, shaping their narrative paths and how they intersect with your role as the boss.",
+        "subtitle3": "Choices That Shape the Narrative",
+        "text3": "Your decisions shape four different storylines. The choices you make alter their narrative paths and how they intersect with your role as the boss",
+        "subtitle4": "Two Worlds, Two Styles",
+        "text4": "The game unfolds in a retrofuturistic pixel art world. Outside of it, a hand-drawn line art style reveals the reality behind the characters."
     },
-    "FORUM":{
-
+    "LEGAL": {
+        "rights": "All rihgts reserved.",
+        "title": "Legal",
+        "legalWarning": {
+            "title": "Legal notice",
+            "text": "This website belongs to Kelkom Games and is for informational purposes only. The content shown corresponds to a video game currently in development and does not constitute a binding commercial offer."
+        },
+        "cookies": {
+            "name": "Cookies",
+            "title": "Cookie policy",
+            "text1": "This website does not use its own cookies for analytical, advertising, or personalization purposes.",
+            "text2": "However, the hosting platform and the infrastructure and security provider may use strictly necessary technical cookies to ensure the proper functioning of the website, security, content delivery, and protection against attacks.",
+            "text3": "These cookies:",
+            "text4": "Do not personally identify the user",
+            "text5": "Are not used for advertising purposes",
+            "text6": "Do not allow individual user tracking"
+        },
+        "privacy": {
+            "title": "Privacy",
+            "text": "This website does not directly collect personal data from users. There are no contact forms, registration systems, user accounts, or comments. No personal information is stored or processed for commercial purposes."
+        },
+        "thirdParty": {
+            "title": "Third-party services",
+            "text1": "This website uses third-party services solely for hosting, content delivery, and security purposes:",
+            "text2": "Netlify: web hosting and deployment service",
+            "text3": "Cloudflare: content delivery network (CDN) and security protection",
+            "text4": "These services may process minimal technical data (such as IP addresses) exclusively for technical and security purposes, in accordance with their respective privacy policies. No analytics, advertising, or external tracking tools are used by the website owner."
+        },
+        "contact": {
+            "title": "Contact",
+            "text": "For any questions related to this website or inquiries about the game, please contact us via email:"
+        }
     },
-    "NEWS":{
-
-    },
-    "SOCIAL":{
-
-    },
-    "SUPPORT":{
-
-    }
+    "FORUM": {},
+    "NEWS": {},
+    "SOCIAL": {},
+    "SUPPORT": {}
 }

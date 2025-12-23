@@ -12,8 +12,7 @@ import { RouterLink } from "@angular/router";
   templateUrl: './home-page.html',
   styleUrl: './home-page.scss',
 })
-export class HomePage implements AfterViewInit, AfterContentChecked {
-  
+export class HomePage implements OnInit, AfterViewInit, AfterContentChecked {
 
   @ViewChild('bannerVideo') video!: ElementRef<HTMLVideoElement>;
   private readonly translate = inject(TranslateService);
@@ -23,136 +22,13 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
   private imagesWidth = 800;
   private imagesHeight = 500;
 
-  public imageList: CarouselImage[] = [
-    {
-      title: 'Streamer Girl - Running',
-      path: `${this.imagesPath}RunningCycle.gif`,
-      caption: '',
-      width: this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Streamer Girl - Attacking',
-      path: `${this.imagesPath}BasicAttackMix.gif`,
-      caption: '',
-      width: this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Streamer Girl - Dash',
-      path: `${this.imagesPath}Dash.gif`,
-      caption: '',
-      width: this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Streamer Girl - Concepts',
-      path: `${this.imagesPath}Streamer-concepts.png`,
-      caption: '',
-      width: window.screen.width < 670 ? 400 : this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'First animations',
-      path: `${this.imagesPath}initial-anims.gif`,
-      caption: '',
-      width: this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Re-charge boss',
-      path: `${this.imagesPath}charger.png`,
-      caption: '',
-      width: window.screen.width < 670 ? 400 : this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Assassin boss',
-      path: `${this.imagesPath}assassin.png`,
-      caption: '',
-      width: window.screen.width < 670 ? 400 : this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Charger boss',
-      path: `${this.imagesPath}silhouettes.png`,
-      caption: '',
-      width: this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Charger boss - more concepts',
-      path: `${this.imagesPath}charger-concept.png`,
-      caption: '',
-      width: window.screen.width < 670 ? 400 : this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Worm boss initial',
-      path: `${this.imagesPath}worm-initial.png`,
-      caption: '',
-      width: window.screen.width < 670 ? 400 : this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'UI - concept',
-      path: `${this.imagesPath}UI-Mockup.png`,
-      caption: '',
-      width: window.screen.width < 670 ? 400 : this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Boss defeated animation',
-      path: `${this.imagesPath}boss_defeated.gif`,
-      caption: '',
-      width: window.screen.width < 670 ? 400 : this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Main menu concept',
-      path: `${this.imagesPath}main-menu-draft.png`,
-      caption: '',
-      width: window.screen.width < 670 ? 400 : this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage:  true
-    },
-    {
-      title: 'Main menu Animation',
-      path: `assets/media/video/mainMenu.mp4`,
-      caption: '',
-      width: window.screen.width < 670 ? 400 : this.imagesWidth,
-      height: this.imagesHeight,
-      textColor: '#fff',
-      isImage: false
-    },
-  ];
+  public imageList: CarouselImage[] = [];
 
   public cardList: CardInfo[] = [];
+
+  ngOnInit(): void {
+    
+  }
 
   ngAfterViewInit() {
     const v = this.video.nativeElement;
@@ -176,6 +52,135 @@ export class HomePage implements AfterViewInit, AfterContentChecked {
         size: "600px",
         title: this.translate.instant('HOME.ABOUT.CARD3.title'),
         text: this.translate.instant('HOME.ABOUT.CARD3.text'),
+      },
+    ];
+
+    this. imageList = [
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image1'),
+        path: `${this.imagesPath}RunningCycle.gif`,
+        caption: '',
+        width: this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image2'),
+        path: `${this.imagesPath}BasicAttackMix.gif`,
+        caption: '',
+        width: this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image3'),
+        path: `${this.imagesPath}Dash.gif`,
+        caption: '',
+        width: this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image4'),
+        path: `${this.imagesPath}Streamer-concepts.png`,
+        caption: '',
+        width: window.screen.width < 670 ? 400 : this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image5'),
+        path: `${this.imagesPath}initial-anims.gif`,
+        caption: '',
+        width: this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image6'),
+        path: `${this.imagesPath}charger.png`,
+        caption: '',
+        width: window.screen.width < 670 ? 400 : this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image7'),
+        path: `${this.imagesPath}assassin.png`,
+        caption: '',
+        width: window.screen.width < 670 ? 400 : this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image8'),
+        path: `${this.imagesPath}silhouettes.png`,
+        caption: '',
+        width: this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image9'),
+        path: `${this.imagesPath}charger-concept.png`,
+        caption: '',
+        width: window.screen.width < 670 ? 400 : this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image10'),
+        path: `${this.imagesPath}worm-initial.png`,
+        caption: '',
+        width: window.screen.width < 670 ? 400 : this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image11'),
+        path: `${this.imagesPath}UI-Mockup.png`,
+        caption: '',
+        width: window.screen.width < 670 ? 400 : this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image12'),
+        path: `${this.imagesPath}boss_defeated.gif`,
+        caption: '',
+        width: window.screen.width < 670 ? 400 : this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image13'),
+        path: `${this.imagesPath}main-menu-draft.png`,
+        caption: '',
+        width: window.screen.width < 670 ? 400 : this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage:  true
+      },
+      {
+        title: this.translate.instant('HOME.CAROUSEL.image14'),
+        path: `assets/media/video/mainMenu.mp4`,
+        caption: '',
+        width: window.screen.width < 670 ? 400 : this.imagesWidth,
+        height: this.imagesHeight,
+        textColor: '#fff',
+        isImage: false
       },
     ];
   }

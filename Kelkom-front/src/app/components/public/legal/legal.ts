@@ -1,9 +1,10 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Route } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'legal',
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './legal.html',
   styleUrl: './legal.scss',
 })

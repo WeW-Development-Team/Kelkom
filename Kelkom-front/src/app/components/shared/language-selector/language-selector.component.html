@@ -1,0 +1,40 @@
+<div class="lang-selector">
+
+  <!-- Botón actual -->
+  <button
+    class="lang-selector__btn"
+    type="button"
+    aria-label="Select language"
+    (click)="toggle()"
+  >
+    <img
+      class="lang-selector__flag"
+      [src]="currentFlag"
+      alt="Current language"
+    />
+    <span style="margin-left: 10px; color: #00e0ff;">{{ languages[currentLangIndex].label }}</span>
+  </button>
+
+  <!-- Desplegable -->
+  <ul
+    class="lang-selector__menu"
+    [class.open]="isOpen"
+    role="menu"
+  >
+  @for (lang of languages; track $index) {
+    <li
+      role="menuitem"
+      (click)="changeLang(lang.code)"
+      [class.active]="lang.code === currentLang"
+    >
+      <img
+        [src]="lang.flag"
+        [alt]="lang.label"
+      />
+      <span>{{ lang.label }}</span>
+    </li>
+  }
+    
+  </ul>
+
+</div>

@@ -37,7 +37,21 @@
         },
         "CAROUSEL":{
             "title": "Bocetos iniciales",
-            "description": "Una selección de bocetos iniciales que ayudaron a definir la idea y el tono del juego."
+            "description": "Una selección de bocetos iniciales que ayudaron a definir la idea y el tono del juego.",
+            "image1": "Streamer - Corriendo",
+            "image2": "Streamer - Atacando",
+            "image3": "Streamer - Esquivando",
+            "image4": "Streamer - Conceptos",
+            "image5": "Primeras animaciones",
+            "image6": "Jefe final 're-charger'",
+            "image7": "Jefe final asesino",
+            "image8": "Jefe final estilo carga",
+            "image9": "Jefe final - más conceptos",
+            "image10": "Jefe final gusano primeros conceptos",
+            "image11": "IU - conceptos",
+            "image12": "Jefe final vencido",
+            "image13": "Concepto de menú principal",
+            "image14": "Animación menú principal"
         },
         "TEAM":{
             "title":"El equipo",
@@ -90,6 +104,39 @@
         "text3":"Tus decisiones influyen en el desarrollo de cuatro historias diferentes. Las elecciones que tomas alteran el rumbo narrativo y la forma en que estas historias se cruzan contigo.",
         "subtitle4":"Dos mundos, dos estilos",
         "text4":"El juego se vive en un mundo de pixel art retrofuturista. Fuera de él, un estilo de dibujo lineal revela la realidad que existe detrás de los personajes."
+    },
+    "LEGAL":{
+        "rights": "Todos los derechos reservados.",
+        "title": "Legal",
+        "legalWarning":{
+            "title":"Aviso legal",
+            "text": "Este sitio web pertenece a Kelkom Games y tiene carácter informativo. El contenido mostrado corresponde a un videojuego en desarrollo y no constituye una oferta comercial vinculante."
+        },
+        "cookies":{
+            "name": "Cookies",
+            "title": "Política de cookies",
+            "text1": "Este sitio web no utiliza cookies propias con fines analíticos, publicitarios ni de personalización.",
+            "text2": "No obstante, la plataforma de alojamiento y el proveedor de infraestructura y seguridad pueden utilizar cookies técnicas estrictamente necesarias para garantizar el correcto funcionamiento del sitio, la seguridad, la distribución de contenidos y la protección frente a ataques.",
+            "text3": "Estas cookies:",
+            "text4": "No identifican personalmente al usuario",
+            "text5": "No se utilizan con fines publicitarios",
+            "text6": "No permiten el seguimiento individual del usuario"
+        },
+        "privacy":{
+            "title":"Privacidad",
+            "text": "Este sitio web no recoge datos personales de los usuarios de forma directa. No existen formularios de contacto, sistemas de registro, cuentas de usuario ni comentarios. No se almacena información personal ni se realiza tratamiento de datos con fines comerciales."
+        },
+        "thirdParty":{
+            "title":"Servicios de terceros",
+            "text1": "Este sitio web utiliza servicios de terceros únicamente para su alojamiento, distribución y seguridad:",
+            "text2": "Netlify: servicio de hosting y despliegue web",
+            "text3": "Cloudflare: red de distribución de contenidos (CDN) y protección de seguridad",
+            "text4": "Estos servicios pueden procesar datos técnicos mínimos (como direcciones IP) con fines exclusivamente técnicos y de seguridad, de acuerdo con sus respectivas políticas de privacidad. No se utilizan herramientas de analítica, publicidad ni seguimiento externo por parte del titular del sitio."
+        },
+        "contact":{
+            "title": "Contacto",
+            "text": "Para cualquier cuestión relacionada con este sitio web o consultas sobre el juego, contactar a través del Email:"
+        }
     },
     "FORUM":{
 
